@@ -7,7 +7,7 @@ Implementações de algoritmos da disciplina de Linguagens Formais e Autômatos
     
     ~~~json
     automato_teste1 = {
-    'alfabeto': ['a', 'b'],
+    "alfabeto": ['a', 'b'],
     'estInicial': 'q0',
     'estFinal': ['q2'],
     'transacoes': {
