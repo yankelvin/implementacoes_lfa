@@ -7,14 +7,14 @@ Implementações de algoritmos da disciplina de Linguagens Formais e Autômatos
     
     ~~~json
     automato_teste1 = {
-    "alfabeto": ['a', 'b'],
-    'estInicial': 'q0',
-    'estFinal': ['q2'],
-    'transacoes': {
-        'q0': {'a': 'q1', 'b': 'q3'},
-        'q1': {'a': 'q3', 'b': 'q2'},
-        'q2': {'a': 'q2', 'b': 'q2'},
-        'q3': {'a': 'q3', 'b': 'q3'}
+    "alfabeto": ["a", "b"],
+    "estInicial": "q0",
+    "estFinal": ["q2"],
+    "transacoes": {
+        "q0": {"a": "q1", "b": "q3"},
+        "q1": {"a": "q3", "b": "q2"},
+        "q2": {"a": "q2", "b": "q2"},
+        "q3": {"a": "q3", "b": "q3"}
       }
     }
     ~~~
