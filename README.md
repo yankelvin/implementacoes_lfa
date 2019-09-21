@@ -2,10 +2,10 @@
 Implementações de algoritmos da disciplina de Linguagens Formais e Autômatos
 
 ### Instruções:
-* - Para executar os algoritmos primeiro é necessário informar os dados do automato desejado.
+* Para executar os algoritmos primeiro é necessário informar os dados do automato desejado.
     Dados necessários: alfabeto, estado inicial, estado final e transações. Seguir o modelo mostrado abaixo:
     
-    ˋˋˋ
+    ~~~json
     automato_teste1 = {
     'alfabeto': ['a', 'b'],
     'estInicial': 'q0',
@@ -17,8 +17,8 @@ Implementações de algoritmos da disciplina de Linguagens Formais e Autômatos
         'q3': {'a': 'q3', 'b': 'q3'}
       }
     }
-    ˋˋˋ
-* - No código há uma função de MENU com as seguintes opções:
+    ~~~
+* No código há uma função de MENU com as seguintes opções:
     1 - Verificar se palavra é aceita pelo autômato
     2 - Minimizar o autômato e mostrar estados equivalentes
     
